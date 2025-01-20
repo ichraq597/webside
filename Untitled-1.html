@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <link rel="icon" href="assets/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/logo.png" alt="logo" />
+        <a href="/">apprentissage de la multiplication</a>
+      </div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#apprendre">apprendre</a>
+        <a href="#tester">tester</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="extra-nav">
+        <button>Get In Touch</button>
+      </div>
+
+      <div id="menu" class="hamburger-menu">
+        <svg
+          width="35px"
+          height="35px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="https://www.bing.com/images/search?view=detailV2&ccid=OEGUfbdC&id=1895B0EF05D229F30DB01C1F4AAEA4F2A14B2C41&thid=OIP.OEGUfbdCEYgoWNKZd45DVAHaGW&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f5011470.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3841947db74211882858d299778e4354%3frik%3dQSxLofKkrkofHA%26pid%3dImgRaw%26r%3d0&exph=2571&expw=3000&q=image+math&simid=608001356744035258&FORM=IRPRST&ck=3CE0A0F546C7A6E25439BE1D76DA8972&selectedIndex=0&itb=0"
+        >
+          <path
+            d="M4 18L20 18"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 12L20 12"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 6L20 6"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile" class="mobile-nav">
+        <div id="close-mobile" class="close">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2px;
+                }
+              </style>
+            </defs>
+
+            <title />
+
+            <g id="cross">
+              <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+              <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#apprendre">apprendre</a></li>
+          <li><a class="nav-link" href="#tester">tester</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+          <div class="content">
+            <svg viewBox="0 0 1500 500" data-aos="fade-down">
+              <text x="50%" y="50%" text-anchor="middle">Multiplication</text>
+            </svg>
+            <h1 data-aos="zoom-in-up">
+              Delivering Custom Frontend Solutions that <span>Stand Out</span>
+            </h1>
+            
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            a propos la multiplication
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="assets/profile.png" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1>apprendre la multiplication</h1>
+                <div class="role">
+                </div>
+              </div>
+              <p>
+                Les tables de multiplication occupent une place essentielle dans l'apprentissage des mathématiques,
+                 en particulier lorsqu'il s'agit de maîtriser les opérations de multiplication.
+                 Elles servent de base solide sur laquelle se construisent des compétences mathématiques plus complexes. <br />
+                
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apprendre" class="apprendre">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            apprendre
+          </h1>
+          <h2>Les Tables de Multiplication</h2>
+            <div id="tableM" class="table-container"></div>
+            <button onclick="generateTables()">table de multiplication</button>
+        </div>
+        </select>
+
+    <section id="tester" class="tester">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            tester
+          </h1>
+
+          <div class="tester">
+            <div id="tester" class="tesster">
+                <h2>Testez vos copetences</h2>
+                <label for="table-selection">Choisissez une table de multiplication :</label>
+                <select id="table-selection">
+                    <option value="1">Table de 1</option>
+                    <option value="2">Table de 2</option>
+                    <option value="3">Table de 3</option>
+                    <option value="4">Table de 4</option>
+                    <option value="5">Table de 5</option>
+                    <option value="6">Table de 6</option>
+                    <option value="7">Table de 7</option>
+                    <option value="8">Table de 8</option>
+                    <option value="9">Table de 9</option>
+                    <option value="10">Table de 10</option>
+                </select>
+                <button id="generate-questions">Générer les QCM</button>
+    
+                <div id="questions-container"></div>
+                <button id="submit-answers" style="display: none;">Soumettre</button>
+                <div id="result" style="display: none;"></div>
+            </section>
+        
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Contact
+          </h1>
+
+          <form
+            data-aos="zoom-in-down"
+            data-aos-delay="300"
+            class="contact-form"
+          >
+            <div class="input">
+              <input type="text" placeholder="Name..." />
+              <input type="email" placeholder="Email..." />
+              <input type="number" placeholder="Phone..." />
+              <input type="text" placeholder="Subject..." />
+            </div>
+            <textarea name="message" placeholder="Message..."></textarea>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <img src="https://www.bing.com/images/search?view=detailV2&ccid=OEGUfbdC&id=1895B0EF05D229F30DB01C1F4AAEA4F2A14B2C41&thid=OIP.OEGUfbdCEYgoWNKZd45DVAHaGW&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f5011470.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3841947db74211882858d299778e4354%3frik%3dQSxLofKkrkofHA%26pid%3dImgRaw%26r%3d0&exph=2571&expw=3000&q=image+math&simid=608001356744035258&FORM=IRPRST&ck=3CE0A0F546C7A6E25439BE1D76DA8972&selectedIndex=0&itb=0" alt="logo" />
+            <a href="">Apprendre.math</a>
+          </div>
+
+          <!-- Short About -->
+          <p>
+            site pour ameliorer votre competence en mathematique 
+          </p>
+
+          <!-- Social Media -->
+          <div class="social-media-container">
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="instagram"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" name="youtube" type="logo"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon
+                color="#fff"
+                name="facebook-circle"
+                type="logo"
+              ></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="tiktok"></box-icon>
+            </div>
+          </div>
+        </div>
+
+        <div class="link-container">
+          <div class="information">
+
+
+          
+
+    <script language="javascript">
+       
+// Génération des tables de multiplication
+function generateTables() {
+    let result = '';
+    for (let i = 1; i <= 10; i++) {
+        result += '<h3>Table de ' + i + '</h3><ul>';
+        for (let j = 1; j <= 10; j++) {
+            result += '<li> ' + i + 'x'  + j + '=' (i * j)+ '</li>';
+        }
+        result += '</ul>';
+    }
+    document.getElementById('tableM').innerHTML = result;
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('generate-questions').addEventListener('click', generateQuestions);
+    document.getElementById('submit-answers').addEventListener('click', submitAnswers);
+});
+
+let questions = [];
+let correctAnswers = 0;
+
+function generateQuestions() {
+            const table = parseInt(document.getElementById('table-selection').value);
+            questions = [];
+            correctAnswers = 0;
+
+            const questionsContainer = document.getElementById('questions-container');
+            questionsContainer.innerHTML = ''; 
+
+            for (let i = 1; i <= 5; i++) {
+                const correctAnswer = table * i;
+                const choices = [correctAnswer, correctAnswer + 1, correctAnswer - 1, correctAnswer + 2];
+                shuffle(choices);
+
+                const questionHTML = `
+                    <div class="question">
+                        <p>Quel est le résultat de ${table} x ${i} ?</p>
+                        <div>
+                            ${choices.map(choice => `
+                                <label>
+                                    <input type="radio" name="q${i}" value="${choice}">
+                                    ${choice}
+                                </label><br>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+                questions.push({ correctAnswer, i });
+                questionsContainer.innerHTML += questionHTML;
+            }
+
+            document.getElementById('generate-questions').style.display = 'none';
+            document.getElementById('submit-answers').style.display = 'inline-block';
+        }
+
+
+function submitAnswers() {
+    const allQuestionsAnswered = questions.every(question => {
+        const selectedAnswer = document.querySelector(`input[name="q${question.i}"]:checked`);
+        if (selectedAnswer) {
+            if (parseInt(selectedAnswer.value) === question.correctAnswer) {
+                correctAnswers++;
+            }
+            return true;
+        }
+        return false;
+    });
+
+    if (allQuestionsAnswered) {
+        document.getElementById('result').textContent = 'Vous avez' + correctAnswers+' bonnes réponses sur'+ questions.length + ' questions.';
+        document.getElementById('result').style.display = 'block';
+    } else {
+        document.getElementById('result').textContent = 'Veuillez répondre à toutes les questions.';
+        document.getElementById('result').style.display = 'block';
+    }
+}
+
+// Fonction pour mélanger les choix des réponses
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Initialisation des tables de multiplication au chargement de la page
+
+
+    </script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
